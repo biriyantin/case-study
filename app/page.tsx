@@ -1,10 +1,13 @@
-/* Components */
-import { Counter } from './components/Counter/Counter'
+import React from "react";
+
+import styles from "./styles/layout.module.css";
+
+import Form from "./components/Form/Form";
 
 export default function IndexPage() {
-  return <Counter />
-}
-
-export const metadata = {
-  title: 'Redux Toolkit',
+  return (
+    <div className={styles.center}>
+      <Form />
+    </div>
+  );
 }
