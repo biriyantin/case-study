@@ -1,29 +1,76 @@
-# Redux Toolkit TypeScript Example
+# Case Study
 
-This example shows how to integrate Next.js with [Redux Toolkit](https://redux-toolkit.js.org).
+This project is built with React 18 and Next.js 13, incorporating Next App Router, Redux, Thunks, and Ant Design.
 
-The **Redux Toolkit** is a standardized way to write Redux logic (create actions and reducers, setup the store with some default middlewares like redux devtools extension). This example demonstrates each of these features with Next.js
+## Table of Contents
 
-## Deploy your own
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+## Prerequisites
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-redux&project-name=with-redux&repository-name=with-redux)
+Before you begin, ensure you have the following installed:
 
-## How to use
+- Node.js (v14.0.0 or higher)
+- npm or yarn
+- Git
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Installation
 
-```bash
-npx create-next-app --example with-redux with-redux-app
-```
+1. Clone the repository:
 
-```bash
-yarn create next-app --example with-redux with-redux-app
-```
+   ```bash
+   git clone https://github.com/biriyantin/case-study
+   cd case-study
+   ```
 
-```bash
-pnpm create next-app --example with-redux with-redux-app
-```
+2. Install dependencies:
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+## Usage
+
+To start the development server, run:
+
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
+
+## Project Directory Structure
+
+The project directory structure is organized as follows:
+
+- `.next/`
+- `app/`
+- `lib/`
+- `public/`
+- `.gitignore`
+- `next.config.js`
+- `package.json`
+- `README.md`
+- `tsconfig.json`
+
+## Used Technologies
+
+The project utilizes the following technologies:
+
+- [React 18](https://reactjs.org/)
+- [Next.js 13](https://nextjs.org/)
+- [React Redux](https://react-redux.js.org/)
+- [Redux Thunk](https://github.com/reduxjs/redux-thunk)
+- [Ant Design](https://ant.design/)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
